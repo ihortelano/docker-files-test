@@ -2,7 +2,7 @@ FROM opensuse:42.3
 
 MAINTAINER Isidro Hortelano version: 1
 
-RUN zypper install apache2 -y
+RUN zypper install -y apache2
 
 EXPOSE 80
 
